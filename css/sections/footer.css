@@ -1,0 +1,215 @@
+footer {
+  padding: 10rem 0 2rem 0;
+  background-color: var(--background2);
+}
+
+.footer-relative {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20%;
+}
+
+.footer-trabook-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-trabook-logo img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.footer-trabook-logo:hover {
+  cursor: pointer;
+}
+
+.footer-about {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+.footer-about p {
+  font-size: small;
+  color: var(--paragraph);
+}
+
+.footer-trabook-social div {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: var(--light);
+}
+
+.facebook {
+  background-image: url('../public/facebook.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.instagram {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram img {
+  width: 15px;
+  height: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.twitter {
+  background-image: url('../public/twitter.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.facebook:hover,
+.instagram:hover,
+.twitter:hover {
+  background-color: var(--primary);
+  box-shadow: 0 4px 8px 0 rgba(250, 116, 54, 0.1),
+    0 6px 20px 0 rgba(250, 116, 54, 0.1);
+}
+
+.footer-trabook-social {
+  display: flex;
+  gap: 1rem;
+}
+
+.company div,
+.contact div,
+.more div {
+  font-size: small;
+}
+
+.footer-trabook-social div:hover {
+  cursor: pointer;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-details {
+  display: flex;
+  justify-content: end;
+  gap: 5rem;
+  width: 70%;
+}
+
+.company,
+.contact,
+.more {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+}
+
+.company-div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 8px;
+}
+
+.company-div p:hover {
+  color: var(--primary);
+  cursor: pointer;
+}
+
+.footer-container {
+  padding: 2rem 0;
+  border-bottom: 1px solid rgba(102, 102, 102, 0.2);
+}
+
+.footer-copyrights p {
+  font-size: smaller;
+  color: var(--paragraph);
+}
+
+.footer-copyrights {
+  padding: 2rem 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-absolute {
+  top: -19rem;
+  position: absolute;
+  background-color: var(--primary);
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  padding: 0 14rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footer-absolute h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-family: volkhov;
+  color: var(--light);
+}
+
+.input-email-subs {
+  padding: 0 8px;
+  width: 100%;
+  height: 50px;
+  background-color: var(--light);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 20;
+}
+
+.input-email {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.input-email input {
+  width: 340px;
+  border: none;
+  outline: none;
+}
+
+.input-email-subs button {
+  padding: 4px 8px;
+  background-color: var(--primary);
+  color: var(--light);
+  border: none;
+  border-radius: 4px;
+}
+
+.subs-decors .tree {
+  width: 80px;
+  color: var(--light);
+  position: absolute;
+  top: 4px;
+  right: 0;
+}
+
+.subs-decors .rounds {
+  width: 300px;
+  color: var(--light);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+}

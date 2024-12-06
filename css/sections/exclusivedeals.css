@@ -1,0 +1,226 @@
+.card-signup {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 4px;
+  gap: 1rem;
+  width: 300px;
+  height: 250px;
+  padding: 1rem;
+  background-image: url('../public/Travel.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signup .paragraph {
+  font-size: small;
+}
+
+.card-money {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 4px;
+  gap: 1rem;
+  width: 300px;
+  height: 250px;
+  padding: 1rem;
+  background-image: url('../public/Money.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-money .paragraph {
+  font-size: small;
+}
+
+.card-travel {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  border-radius: 4px;
+  gap: 1rem;
+  width: 300px;
+  height: 250px;
+  padding: 1rem;
+  background-image: url('../public/Travel.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-travel .paragraph {
+  font-size: small;
+}
+
+.things-card h3 {
+  font-weight: 400;
+}
+
+.deals {
+  background-color: var(--background1);
+}
+
+.deals-container {
+  margin: 0 20%;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.deals-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+
+.deals-info h2,
+.deals-info span {
+  font-size: 2rem;
+  font-family: volkhov;
+}
+
+.deals-info p {
+  padding: 1rem 4.5rem;
+}
+
+.deals-info .paragraph {
+  font-size: small;
+}
+
+.deals-cards {
+  padding: 2rem 0;
+  display: flex;
+  gap: 2rem;
+}
+
+.deals-card {
+  position: relative;
+  width: 200px;
+  height: 335px;
+  border-radius: 4px;
+  background-color: var(--background1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.deals-card-img img {
+  width: 100%;
+  height: 250px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.buy-btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: bottom 0.3s;
+  cursor: pointer;
+  border: 1px solid var(--primary);
+  padding: 8px 16px;
+  border-radius: 4px;
+  outline: none;
+  background: var(--primary);
+  color: var(--light);
+  box-shadow: 0 4px 8px 0 rgba(250, 116, 54, 0.1),
+    0 6px 20px 0 rgba(250, 116, 54, 0.1);
+  z-index: -10;
+}
+
+.deals-card:hover .buy-btn {
+  position: absolute;
+  top: 12rem;
+  box-shadow: 0 4px 8px 0 rgba(250, 116, 54, 0.1),
+    0 6px 20px 0 rgba(250, 116, 54, 0.1);
+  z-index: 10;
+}
+
+.deals-card-title {
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deals-card-title h3 {
+  font-weight: 400;
+}
+
+.deals-card-title .card-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+
+.card-rating img {
+  width: 15px;
+  height: 15px;
+}
+
+.card-rating .paragraph {
+  font-size: small;
+}
+
+.deals-card-price {
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deals-card-price .card-location {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.card-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.card-location img {
+  width: 10px;
+  height: 15px;
+}
+
+.card-location .paragraph {
+  font-size: small;
+}
+
+.card-discount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-discount .paragraph {
+  font-size: small;
+  text-decoration: line-through;
+}
+
+.card-discount .para-highlight {
+  border-radius: 1rem;
+  padding: 4px;
+  background: #ffc3a7;
+  font-size: small;
+  color: var(--primary);
+}
+
+.card-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}

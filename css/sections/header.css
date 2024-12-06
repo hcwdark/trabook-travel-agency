@@ -1,0 +1,117 @@
+header {
+  margin: 0 20%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  margin-bottom: 50px;
+}
+
+.trabook-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.trabook-logo img {
+  width: 1rem;
+  height: 1rem;
+}
+
+.trabook-logo:hover {
+  cursor: pointer;
+}
+
+.menu-items {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.menu-items a {
+  position: relative;
+  text-decoration: none;
+}
+
+.auth-btns a {
+  text-decoration: none;
+}
+
+.menu-items a:hover {
+  color: var(--primary);
+}
+
+.paragraph,
+.paragraph a {
+  color: var(--secondary);
+}
+
+.auth-btns {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+#login {
+  color: var(--primary);
+}
+
+#signup {
+  box-shadow: 0 4px 8px 0 rgba(250, 116, 54, 0.25),
+    0 6px 20px 0 rgba(250, 116, 54, 0.25);
+  background-color: var(--primary);
+  padding: 10px 2rem;
+  color: var(--light);
+  border-radius: 4px;
+}
+/* Hero Section */
+.hero-container {
+  margin: 0 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  height: 485px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  width: 40%;
+  gap: 2.5rem;
+}
+
+.hero-content h1,
+.hero-content span {
+  font-size: 2.8rem;
+  font-family: volkhov;
+}
+
+#discover {
+  cursor: pointer;
+  border: 1px solid var(--primary);
+  padding: 8px 16px;
+  border-radius: 4px;
+  outline: none;
+  background: none;
+}
+
+#discover:hover {
+  background-color: var(--primary);
+  color: var(--light);
+}
+
+.highlight {
+  color: var(--primary);
+}

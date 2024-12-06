@@ -1,0 +1,47 @@
+.value {
+  background-color: var(--background2);
+}
+
+.value-container {
+  margin: 0 20%;
+  padding: 4rem 0;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.things {
+  position: relative;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.things h2,
+.things span {
+  text-align: center;
+  font-size: 2rem;
+  font-family: volkhov;
+}
+
+.things p {
+  text-align: center;
+  font-size: small;
+}
+
+.things img {
+  position: absolute;
+  width: 100px;
+  right: -8rem;
+}
+
+.things-cards {
+  position: relative;
+  display: flex;
+  gap: 3rem;
+}

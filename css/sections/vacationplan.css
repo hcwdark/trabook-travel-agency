@@ -1,0 +1,159 @@
+.vacation {
+  background-color: var(--background1);
+}
+
+.vacation-container {
+  margin: 0 20%;
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.vacation-info {
+  position: relative;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+}
+
+.vacation-info .tree {
+  position: absolute;
+  right: -1rem;
+}
+
+.vacation-info .tree img {
+  width: 75px;
+  height: 60px;
+}
+
+.vacation-info h2,
+.vacation-info span {
+  font-size: 2rem;
+  font-family: volkhov;
+}
+
+.vacation-info p {
+  padding: 1rem 4.5rem;
+}
+
+.vacation-info .paragraph {
+  font-size: small;
+}
+
+.vacation-card-carousel {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 1rem;
+}
+
+.vacation-card-carousel div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid var(--paragraph);
+  border-radius: 50%;
+}
+
+.vacations-cards {
+  width: 100%;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.vacations-card {
+  position: relative;
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  width: 280px;
+  height: 335px;
+  border-radius: 4px;
+  background-color: var(--background1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.deals-card:hover,
+.vacations-card:hover {
+  box-shadow: 0 4px 8px 0 rgba(250, 116, 54, 0.1),
+    0 6px 20px 0 rgba(250, 116, 54, 0.1);
+}
+
+.vacations-card-img {
+  width: 100%;
+  height: 210px;
+  border-radius: 4px;
+}
+
+.vacations-card-img img {
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.vacations-card:hover .buy-btn {
+  position: absolute;
+  top: 9.5rem;
+  box-shadow: 0 4px 8px 0 rgba(250, 116, 54, 0.1),
+    0 6px 20px 0 rgba(250, 116, 54, 0.1);
+  z-index: 10;
+}
+
+.vacation-card-location img {
+  width: 10px;
+  height: 10px;
+}
+
+.vacation-card-rating img {
+  width: 15px;
+  height: 15px;
+}
+
+.vacations-card-about {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+
+.vacation-card-location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.vacation-card-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.vacations-card-about .paragraph {
+  font-size: small;
+}
+
+.vacations-card-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+}
+
+.vacations-card-title h3 {
+  font-weight: 450;
+}
+
+.vacations-card-title-highlight {
+  font-weight: 550;
+  color: var(--primary);
+}

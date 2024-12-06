@@ -1,0 +1,32 @@
+@import url('sections/header.css');
+@import url('sections/hero.css');
+@import url('sections/thingsyouneed.css');
+@import url('sections/exclusivedeals.css');
+@import url('sections/vacationplan.css');
+@import url('sections/about.css');
+@import url('sections/blog.css');
+@import url('sections/footer.css');
+
+:root {
+  --primary: #fa7436;
+  --secondary: #222222;
+  --background1: #fefcfb;
+  --background2: #f7f8fc;
+  --paragraph: #666666;
+  --light: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+body {
+  background-color: var(--background1);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
